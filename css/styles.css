@@ -23,7 +23,7 @@ a {
 ================================= */
 
 header {
-  background-color: #fafafa; /* change to #add8e6  */
+  background-color: #ecf7fd; /* change to #add8e6  */
   text-align: center;
   font-weight: 300;
   padding-bottom: 50px;
@@ -90,15 +90,22 @@ nav li a {
             MAIN SECTION 
 ================================= */
 
-.portfolio-heading {
+.h2-heading {
   text-align: center;
   padding: 50px 0;
   font-size: 2.5rem;
+  color: #8fcff1;
 }
 
 .main-container {
   padding: 0 1.5625rem;;
   text-align: center;
+}
+
+.multi-column {
+  border: 1px solid rgba(74, 74, 74, .2);
+  margin-bottom: 25px;
+  border-radius: 5px;
 }
 
 .section-img {
@@ -115,9 +122,14 @@ nav li a {
   font-size: 1.25rem;
 }
 
+#skills {
+  margin-top: -25px;
+}
+
 .main-footer {
-  background-color: #fafafa;
+  background-color: #ecf7fd;
   padding: 65px 25px 20px;
+  margin-top: 50px;
   font-size: 1.2em;
 }
 
@@ -146,11 +158,9 @@ nav li a {
 }
 
 .bottom-footer {
-  display: inline-block;
   width: 100%;
-  margin-top: 50px;
   padding-top: 25px;
-  border-top: 1px solid #e7e7e7;
+  border-top: 1px solid rgba(74, 74, 74, .3);
   color: #4a4a4a;
   font-weight: 700;
 }
@@ -183,7 +193,7 @@ nav li a {
   }
 
   nav li a:hover {
-    color: #FFF;
+    color: #fff;
     transition: .25s ease-in-out;
   }
 
@@ -216,10 +226,6 @@ nav li a {
     margin: 0 auto;
   }
 
-  .main-footer {
-    margin-top: 50px;
-  }
-
   .contact-footer-text p {
     /* margin-left: 5%; */
     /* margin-right: 5%; */
@@ -238,6 +244,10 @@ nav li a {
 
   .multi-column {
     height: 475px;
+  }
+
+  .contact {
+    margin-bottom: 50px;
   }
 
 }
@@ -271,99 +281,3 @@ nav li a {
     padding: 0 0 0 22px;
   }
 }
-
-
-
-/* @media (min-width: 768px) {
-
-  nav li {
-    display: inline-block;
-    background: none;
-    border: none;
-    padding: 0 15px;
-  }
-
-  nav li a:hover {
-    color: #7f7f7f;
-    transition: .25s ease-in-out;
-  }
-
-  .profile {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-
-  .profile-img {
-    width: 40%;
-    float: right;
-    margin: 0;
-  }
-
-  .profile-img img {
-    width: 100%;
-  }
-
-  .profile-intro {
-    width: 55%;
-    float: left;
-    margin: 0 5% 0 0;
-    text-align: left;
-  }
-
-  .section-text {
-  padding: 0 30px;
-  }
-
-  .contact {
-    width: 80%;
-  }
-
-  .multi-column {
-    width: 48%;
-    float: left;
-  }
-
-  .multi-column:nth-of-type(2n) {
-    margin-left: 4%;
-  }
-}
-
-@media (min-width: 1024px) {
-  
-  .main-nav {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding-top: 57px;
-  }
-
-  header h1 {
-    float: left;
-    padding: 0 0 0 22px;
-  }
-
-  nav {
-    float: right;
-  }
-
-  nav li {
-    padding-top: 8px;
-  }
-
-  .section-text {
-    padding-left: 10px;
-    }
-
-  .multi-column:nth-of-type(2n) {
-    margin-left: 0;
-  }
-
-  .multi-column {
-    width: 32%;
-    float: left;
-  }
-
-  .multi-column:nth-of-type(3n + 0),
-  .multi-column:nth-of-type(3n - 1) {
-    margin-left: 2%;
-  }
-} */
