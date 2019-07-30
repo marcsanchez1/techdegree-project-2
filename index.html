@@ -4,14 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Project 2</title>
+  <title>Project 2 | Marc Sanchez</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
   <!-- HEADER > NAV > PROFILE INTRO -->
   <header id="header">
-    <div class="main-nav">
+    <div class="main-nav clearfix">
       <h1>Student Name</h1>
       <nav>
         <ul>
@@ -32,9 +32,8 @@
   </header>
   
   <!-- ============ Main Section ============ -->
-  <main class="clearfix">
-    <h2 class="portfolio-heading">Portfolio</h2>
-
+  <h2 class="portfolio-heading" id="portfolio">Portfolio</h2>
+  <main class="main-container clearfix">
     <!-- MARKETING -->
     <section class="marketing multi-column">
       <img class="section-img" src="images/portfolio-1.png" alt="Portfolio image">
@@ -76,17 +75,31 @@
         <h3 class="section-title">Calculator</h3>
           <p class="section-text">This project Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
     </section>
+
+    <!-- Skills -->
+    <section class="calculator multi-column">
+      <img class="section-img" src="images/portfolio-7.jpg" alt="Skills image">
+        <h3 class="section-title">Skills</h3>
+          <p class="section-text">This project showcases qualifying skills that exceeded the clients expectations. Constantly challenging myself to learn the latest stable technologies.</p>
+    </section>
+
+    <!-- Blog -->
+    <section class="blog multi-column">
+      <img class="section-img" src="images/portfolio-7.jpg" alt="Blog image">
+        <h3 class="section-title">Blog</h3>
+          <p class="section-text">This project allows users to make comments and critique my work. </p>
+    </section>
   </main>
 
   <!-- ============ FOOTER SECTION ============ -->
-  <footer class="clearfix">
-    <div class="contact clearfix">
+  <footer class="main-footer clearfix">
+    <div class="contact clearfix" id="contact">
       <p class="contact-footer-title">Contact</p>
       <div class="contact-footer-text">
         <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
       </div>
-      <p>Phone &nbsp;<span class="contact-info"><a href="tel:+11115551234">+1 (111) 555-1234</a></span></p>
-      <p>Email &nbsp;<span class="contact-info"><a href="mailto:email@yoursite.com">email@yoursite.com</a></span></p>
+      <p class="contact-info">Phone &nbsp;<span><a href="tel:+11115551234">+1 (111) 555-1234</a></span></p>
+      <p class="contact-info">Email &nbsp;<span><a href="mailto:email@yoursite.com">email@yoursite.com</a></span></p>
     </div>
     <div class="bottom-footer clearfix">
       <p class="footer-logo">Student Name</p>
