@@ -23,7 +23,7 @@ a {
 ================================= */
 
 header {
-  background-color: #ecf7fd; /* change to #add8e6  */
+  background-color: #ecf7fd;
   text-align: center;
   font-weight: 300;
   padding-bottom: 50px;
@@ -33,6 +33,10 @@ header {
 header h1 {
   margin: 0;
   padding: 25px 0;
+}
+
+header h1 a {
+  color: #4a4a4a;
 }
 
 .profile {
@@ -175,6 +179,15 @@ nav li a {
   color: #4a4a4a;
 }
 
+.foot-nav {
+  display: none;
+}
+
+.footer-logo a {
+  color: #4a4a4a;
+}
+
+
 /* ========================================
               MEDIA QUERIES 
 ========================================== */
@@ -191,6 +204,10 @@ nav li a {
     background: none;
     border: none;
     padding: 0 15px;
+  }
+
+  nav li:last-child {
+    padding-right: 0;
   }
 
   nav li a:hover {
@@ -249,6 +266,36 @@ nav li a {
 
   .contact {
     margin-bottom: 50px;
+  }
+
+  .back-to-top {
+    display: none;
+  }
+
+  .footer-nav {
+    float: right;
+  }
+
+  .foot-nav {
+    display: inline;
+  }
+
+  .bottom-footer li {
+    display: inline;
+    padding: 15px;
+  }
+
+  .bottom-footer li:last-child {
+    padding-right: 0;
+  }
+
+  .bottom-footer li a {
+    color: #4a4a4a;
+  }
+
+  .bottom-footer li a:hover {
+    color: rgba(74, 74, 74, .5);
+    transition: .25s ease-in-out;
   }
 
 }
