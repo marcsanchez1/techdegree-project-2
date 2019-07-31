@@ -179,7 +179,7 @@ nav li a {
   color: #4a4a4a;
 }
 
-.foot-nav {
+.bottom-footer li {
   display: none;
 }
 
@@ -276,10 +276,6 @@ nav li a {
     float: right;
   }
 
-  .foot-nav {
-    display: inline;
-  }
-
   .bottom-footer li {
     display: inline;
     padding: 15px;
@@ -291,6 +287,7 @@ nav li a {
 
   .bottom-footer li a {
     color: #4a4a4a;
+    text-transform: uppercase;
   }
 
   .bottom-footer li a:hover {
