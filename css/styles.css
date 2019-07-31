@@ -110,7 +110,6 @@ nav li a {
   border: 1px solid rgba(74, 74, 74, .2);
   margin-bottom: 25px;
   border-radius: 5px;
-  overflow: auto;
 }
 
 .section-img {
